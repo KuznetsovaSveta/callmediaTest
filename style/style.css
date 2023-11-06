@@ -1,0 +1,57 @@
+@import "reset.css";
+@import "variables.css";
+@import "header.css";
+@import "hero.css";
+@import "fast.css";
+@import "science.css";
+@import "popup.css";
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+body.noScroll{
+    overflow: hidden;
+    padding-right: 8px;
+}
+.container{
+    max-width: 1260px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.gradient{
+    background: rgb(224,77,237);
+    background: linear-gradient(90deg, rgba(224,77,237,1) 0%, rgba(251,78,154,1) 100%);
+}
+
+svg{
+    fill: currentColor;
+}
+
+h1, h2{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+@media(max-width: 1260px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media(max-width: 960px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media(max-width: 720px){
+    h1, h2{
+        font-size: 22px;
+    }
+    .container{
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
