@@ -159,6 +159,7 @@
 .form__price-new-mobile{
     color: #DB484B;
     position: relative;
+    display: none;
 }
 .form__price-new-mobile:before{
     content: '*';
