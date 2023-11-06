@@ -26,6 +26,7 @@
     width: 1008px;
     max-width: 90%;
     max-height: 95%;
+    overflow: auto;
     position: absolute;
     left: 50%;
     top: 50%;
